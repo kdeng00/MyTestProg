@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MyTestLib">
+        <HintPath>../Libs/MyTestLib/bin/$(Configuration)/netcoreapp3.1/MyTestLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
